@@ -217,7 +217,7 @@ Get-RdsAppGroup -TenantName $DELWVDTenantName -HostPoolName $DELHostPoolID
 # THIRD remove each SessionHost
     Get-RdsSessionHost -TenantName $DELWVDTenantName -HostPoolName $DELHostPoolName
     # Use output from above to get each SessionHost by name and replace in the following lines, then run each line to drop each host (run command per host)
-        Remove-RdsSessionhost -TenantName $DELWVDTenantName -HostPoolName $DELHostPoolName -Name "Type in the name of a VM"
+        Remove-RdsSessionhost -TenantName $DELWVDTenantName -HostPoolName $DELHostPoolName -Name "Type in the name of each Host name"
 
 # FOURTH REmove The HostPool
     Remove-RdsHostPool -TenantName $DELWVDTenantName -HostPoolName $DELHostPoolName
