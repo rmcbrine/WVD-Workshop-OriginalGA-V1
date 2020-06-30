@@ -1,0 +1,8 @@
+1. Intro materials & Overview of WVD
+2. Lab Admin intro
+3. WVD Pre-Reqs
+4. WVD Tenant Planning (V1) and WVD Workspaces (V2)
+5. FSLogix Planning & Deployment
+6. GPOs and Optimization of WVD VMs (FSLogix and More)
+7. Protect VMs in WVD with Firewall Technology
+8. Sustainment - patching, updating, etc.
